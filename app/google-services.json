@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "715025142440",
+    "project_id": "harshmodernpublicschool-9a44a",
+    "storage_bucket": "harshmodernpublicschool-9a44a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715025142440:android:ec11ad0c3ac97e8910289d",
+        "android_client_info": {
+          "package_name": "com.kartik.harshmodernpublicschool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715025142440-nkjhbs48tiporivor38mlpj4tijf0p4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB993BagT1pBlohVkG7F2OiIxWdm40FLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715025142440-nkjhbs48tiporivor38mlpj4tijf0p4p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

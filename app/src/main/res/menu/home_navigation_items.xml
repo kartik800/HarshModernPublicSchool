@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/optProfile"
+        android:title="profile"
+        android:icon="@drawable/ic_baseline_group_24"/>
+
+    <item
+        android:id="@+id/optNotification"
+        android:title="Notification"
+        android:icon="@drawable/ic_baseline_notification_add_24"/>
+
+    <item
+        android:id="@+id/optAttendance"
+        android:title="Attendance"
+        android:icon="@drawable/ic_baseline_check_24"
+        />
+
+    <item
+        android:id="@+id/optTimeTable"
+        android:title="Time Table"
+        android:icon="@drawable/ic_baseline_timelapse_24"
+        />
+
+    <item
+        android:id="@+id/optCircular"
+        android:title="Circular"
+        android:icon="@drawable/ic_baseline_file_copy_24"/>
+
+    <item
+        android:id="@+id/optHomeWork"
+        android:title="Homework"
+        android:icon="@drawable/ic_baseline_menu_book_24"/>
+
+    <item
+        android:id="@+id/optExamTimeTable"
+        android:title="Exam Timetable"
+        android:icon="@drawable/ic_baseline_calendar_month_24"/>
+
+    <item
+        android:id="@+id/optReportCard"
+        android:title="ReportCard"
+        android:icon="@drawable/ic_baseline_auto_graph_24"/>
+
+    <item
+        android:id="@+id/optFeeDetails"
+        android:title="Fee Details"
+        android:icon="@drawable/ic_baseline_currency_rupee_24"/>
+
+    </group>
+
+    <item android:title="Forms">
+
+        <menu>
+            <group>
+            <item
+                android:id="@+id/AdmissionForm"
+                android:title="Admission Form"/>
+
+            <item
+                android:id="@+id/leavingForm"
+                android:title="Leaving Form"/>
+
+            </group>
+
+        </menu>
+    </item>
+
+
+    <item android:title="Certificate">
+
+        <menu>
+            <group>
+            <item
+                android:id="@+id/JoiningCertificate"
+                android:title="Joining Certificate"/>
+
+            <item
+                android:id="@+id/leavingCertificate"
+                android:title="Leaving Certificate"/>
+
+            </group>
+
+        </menu>
+    </item>
+
+    <group>
+    <item
+        android:id="@+id/optEvents"
+        android:title="Events"
+        android:icon="@drawable/ic_baseline_event_available_24"/>
+
+    <item
+        android:id="@+id/optHolidayList"
+        android:title="Holiday List"
+        android:icon="@drawable/ic_baseline_airplane_ticket_24"/>
+
+    <item
+        android:id="@+id/optLogOut"
+        android:title="LogOut"
+        android:icon="@drawable/ic_baseline_logout_24"/>
+
+    </group>
+</menu>

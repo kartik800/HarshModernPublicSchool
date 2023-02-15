@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:gravity="bottom"
+    android:padding="14dp"
+    android:orientation="vertical"
+    android:background="#A1E8F1"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/homeanimation" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harsh Modern Public School"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="25dp"
+            android:textStyle="bold"/>
+
+
+
+</LinearLayout>
